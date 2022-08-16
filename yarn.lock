@@ -788,6 +788,11 @@ update-browserslist-db@^1.0.5:
     escalade "^3.1.1"
     picocolors "^1.0.0"
 
+vanta@^0.5.22:
+  version "0.5.22"
+  resolved "https://registry.yarnpkg.com/vanta/-/vanta-0.5.22.tgz#92290e4ebac0b7c0d4822a4316d03ccd6bf33779"
+  integrity sha512-Y58U1SjHU6HeIuwq+te7eonyi7LWzKqyPDjZyQ7Kb6Zy4ampNJHRIUZvf1Pwl6uTC6Qi6P9fUYDsUVQDHq0KKg==
+
 vite@^3.0.6:
   version "3.0.6"
   resolved "https://registry.yarnpkg.com/vite/-/vite-3.0.6.tgz#08e85ebaa34a3b647cb1365c87675b45f3511be0"
