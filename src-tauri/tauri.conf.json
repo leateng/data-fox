@@ -29,7 +29,7 @@
         "icons/icon.icns",
         "icons/icon.ico"
       ],
-      "identifier": "com.tauri.dev",
+      "identifier": "com.leateng.datafox",
       "longDescription": "",
       "macOS": {
         "entitlements": null,
@@ -59,7 +59,15 @@
         "height": 600,
         "resizable": true,
         "title": "DataFox",
-        "width": 800
+        "width": 800,
+        "visible": false
+      },
+      {
+        "width": 400,
+        "height": 200,
+        "decorations": false,
+        "url": "splashScreen.html",
+        "label": "splashscreen"
       }
     ]
   }
