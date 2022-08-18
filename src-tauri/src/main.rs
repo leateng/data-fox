@@ -18,7 +18,7 @@ fn main() {
 async fn close_splashscreen(window: tauri::Window) {
   // Close splashscreen
   if let Some(splashscreen) = window.get_window("splashscreen") {
-    std::thread::sleep(std::time::Duration::from_secs(5));
+    std::thread::sleep(std::time::Duration::from_secs(3));
     splashscreen.close().unwrap();
   }
   // Show main window

@@ -1,7 +1,7 @@
 {
   "name": "data-fox",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,6 +10,11 @@
     "tauri": "tauri"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.0",
+    "@emotion/styled": "^11.10.0",
+    "@monaco-editor/react": "^4.4.5",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/material": "^5.10.1",
     "@tauri-apps/api": "^1.0.2",
     "monaco-editor": "^0.34.0",
     "react": "^18.2.0",

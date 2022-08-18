@@ -1,14 +1,9 @@
 import { invoke } from '@tauri-apps/api/tauri'
 import { appWindow, LogicalPosition } from '@tauri-apps/api/window';
 import * as THREE from 'three';
-// import p5 from 'p5'
 import VANTA_EFFECTS from 'vanta/dist/vanta.waves.min'
 
-
-// console.log("hello")
-//   console.log("world")
 document.addEventListener('DOMContentLoaded', () => {
-
   VANTA_EFFECTS(
     {
       el: '#background', // element selector string or DOM object reference
