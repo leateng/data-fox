@@ -5,9 +5,10 @@ import Editor, { DiffEditor, useMonaco, loader } from "@monaco-editor/react";
 
 
 function SQLEditor() {
+  // BuiltinTheme: "vs" | "vs-dark" | "hc-black" | "hc-light"
   return (
     <Editor
-      theme = 'vs-dark'
+      theme = 'vs'
       height="100vh"
       autoLayout = "true"
       defaultLanguage="sql"
