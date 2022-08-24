@@ -8,9 +8,8 @@ function SQLEditor() {
   // BuiltinTheme: "vs" | "vs-dark" | "hc-black" | "hc-light"
   return (
     <Editor
-      theme = 'vs'
-      height="100vh"
-      autoLayout = "true"
+      theme = 'vs-dark'
+      // automaticLayout = "true"
       defaultLanguage="sql"
       defaultValue="select * from alert where 1=1 order by created_at desc"
     />
