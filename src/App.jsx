@@ -9,6 +9,9 @@ import "@blueprintjs/core/lib/css/blueprint.css";
 import "@blueprintjs/icons/lib/css/blueprint-icons.css";
 import './App.css'
 
+import { Icon as IconifyIcon} from '@iconify/react';
+import postgresqlIcon from '@iconify/icons-logos/postgresql';
+
 function App() {
   // const style = {
   // };
@@ -34,14 +37,20 @@ function App() {
         {
           id: 2,
           hasCaret: true,
-          icon: "function",
-          label: "functions"
+          icon: "grid",
+          label: "views"
         },
         {
           id: 3,
           hasCaret: true,
           icon: "function",
           label: "functions"
+        },
+        {
+          id: 4,
+          hasCaret: true,
+          icon: "flow-linear",
+          label: "procedures"
         },
       ]
     },
@@ -68,6 +77,7 @@ function App() {
             contents={treeData}
             className={Classes.ELEVATION_0}
           />
+          <IconifyIcon icon={postgresqlIcon} width="24" height="24" />
         </div>
       </Resizable>
       </animated.div>

@@ -9,6 +9,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         index: resolve(__dirname, 'index.html'),
+        welcome: resolve(__dirname, 'welcome.html'),
         splashScreen: resolve(__dirname, 'splashScreen.html'),
       }
     }

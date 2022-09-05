@@ -68,6 +68,15 @@
         "visible": false,
         "resizable": false,
         "decorations": false,
+        "url": "welcome.html",
+        "label": "welcome"
+      },
+      {
+        "width": 600,
+        "height": 400,
+        "visible": false,
+        "resizable": false,
+        "decorations": false,
         "url": "splashScreen.html",
         "label": "splashscreen"
       }

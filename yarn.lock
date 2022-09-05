@@ -291,6 +291,23 @@
     gud "^1.0.0"
     warning "^4.0.3"
 
+"@iconify/icons-logos@^1.2.16":
+  version "1.2.16"
+  resolved "https://registry.npmmirror.com/@iconify/icons-logos/-/icons-logos-1.2.16.tgz#f77c66b59d44b495099fe2f2a54fc54350f2d98b"
+  integrity sha512-//orsaYSZIzUj2NfvCJd1DhrOh3DD+LrrL3Ct0UnT0IM0fqR8Vy/QeCoU0Ix9mjtFhQ7ZvmIF7QgW/S40DnxMQ==
+  dependencies:
+    "@iconify/types" "*"
+
+"@iconify/react@^3.2.2":
+  version "3.2.2"
+  resolved "https://registry.npmmirror.com/@iconify/react/-/react-3.2.2.tgz#ab5241dc01562076bae3b0c22238aff7e5f029cc"
+  integrity sha512-z3+Jno3VcJzgNHsN5mEvYMsgCkOZkydqdIwOxjXh45+i2Vs9RGH68Y52vt39izwFSfuYUXhaW+1u7m7+IhCn/g==
+
+"@iconify/types@*":
+  version "1.1.0"
+  resolved "https://registry.npmmirror.com/@iconify/types/-/types-1.1.0.tgz#dc15fc988b1b3fd558dd140a24ede7e0aac11280"
+  integrity sha512-Jh0llaK2LRXQoYsorIH8maClebsnzTcve+7U3rQUSnC11X4jtPnFuyatqFLvMxZ8MLG8dB4zfHsbPfuvxluONw==
+
 "@jridgewell/gen-mapping@^0.1.0":
   version "0.1.1"
   resolved "https://registry.npmjs.org/@jridgewell/gen-mapping/-/gen-mapping-0.1.1.tgz"
