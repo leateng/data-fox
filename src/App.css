@@ -13,8 +13,6 @@ body {
   flex-flow: row nowrap;
   align-items: stretch;
   justify-content: flex-start;
-  overflow-y: hidden;
-  /* overflow: hidden; */
 }
 
 /* .App .sidebar-container:hover {
@@ -22,15 +20,16 @@ body {
 } */
 
 .App .sidebar-container {
-  flex: 1;
+  /* flex: 1;
   flex-grow: 1;
-  flex-shrink: 1;
+  flex-shrink: 1; */
+  flex-basis: 200px;
   border-right: solid 1px #ddd;
   background: #f0f0f0;
 }
 
 .App .editor-container {
-  flex: auto;
-  flex-grow: 999;
-  flex-shrink: 1;
+  flex-basis: 0;
+  flex-grow: 1;
+  min-width: 0;
 }
