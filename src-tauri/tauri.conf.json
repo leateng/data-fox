@@ -65,9 +65,10 @@
       {
         "width": 600,
         "height": 400,
-        "visible": false,
+        "visible": true,
         "resizable": false,
-        "decorations": false,
+        "decorations": true,
+        "title": "Welcome",
         "url": "welcome.html",
         "label": "welcome"
       },

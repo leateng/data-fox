@@ -1,0 +1,28 @@
+/* @import "~@blueprintjs/core/lib/scss/variables"; */
+
+body {
+  margin: 0;
+}
+
+.welcome {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+
+.welcome .info {
+  flex-basis: 300px;
+  /* border-right: solid 1px #ddd; */
+  background: #f0f0f0;
+}
+
+.welcome .connections {
+  flex-basis: 0;
+  flex-grow: 1;
+  min-width: 0;
+}
